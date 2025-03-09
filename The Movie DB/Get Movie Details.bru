@@ -1,0 +1,15 @@
+meta {
+  name: Get Movie Details
+  type: http
+  seq: 4
+}
+
+get {
+  url: https://api.themoviedb.org/3/movie/{{movie_id}}
+  body: none
+  auth: bearer
+}
+
+auth:bearer {
+  token: {{auth}}
+}

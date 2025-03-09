@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "The Movie DB",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}

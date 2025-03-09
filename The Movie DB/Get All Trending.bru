@@ -1,0 +1,15 @@
+meta {
+  name: Get All Trending
+  type: http
+  seq: 5
+}
+
+get {
+  url: https://api.themoviedb.org/3/trending/all/{{time_window}}
+  body: none
+  auth: bearer
+}
+
+auth:bearer {
+  token: {{auth}}
+}

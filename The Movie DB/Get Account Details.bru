@@ -1,0 +1,15 @@
+meta {
+  name: Get Account Details
+  type: http
+  seq: 2
+}
+
+get {
+  url: https://api.themoviedb.org/3/account/{{account_id}}
+  body: json
+  auth: bearer
+}
+
+auth:bearer {
+  token: {{auth}}
+}
