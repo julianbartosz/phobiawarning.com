@@ -1,0 +1,16 @@
+.header {
+  font-size: 2em;
+  text-align: center;
+  margin: 20px 0;
+  color: #333;
+}
+
+.movies-container {
+  margin-top: 1.5rem; /* Add space between CatalogFilters and movies */
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 0 1rem 0 1rem;
+  overflow-y: auto; /* Make the container scrollable */
+  max-height: calc(100vh - 200px); /* Adjust the height as needed */
+}

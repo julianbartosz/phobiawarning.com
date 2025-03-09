@@ -1,0 +1,57 @@
+.catalog-filters {
+  display: flex;
+  align-items: center; /* Center content vertically */
+  justify-content: space-between;
+  width: 100%;
+  height: 2.3rem; /* Adjust the height as needed */
+  padding: 0.6rem;
+  background-color: #1a3b5d; /* Change to a lighter shade of blue */
+  border: white 1px solid;
+  border-left: none;
+}
+
+.phobias {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center; /* Center phobia content vertically */
+  width: 65%;
+  overflow: hidden;
+  white-space: nowrap;
+  margin-right: 2rem;
+  height: 100%;
+}
+
+.phobia-item {
+  align-items: center; /* Center phobia content vertically */
+  display: flex; /* Add this line to enable flexbox centering */
+  padding: 0 1.8rem;
+  white-space: nowrap;
+  height: 100%; /* Make phobia items reach the top/bottom of their container */
+  color: white; /* Change text color to white */
+  border-radius: 3px; 
+  background: linear-gradient(to right, #1e3c72, #2a5298); /* Gradient from deep dark blue to slightly lighter dark blue */
+  transition: background 0.5s ease;
+  margin: 0 0.2rem 0 0.2rem;
+}
+
+.search-bar {
+  margin-right: 4rem; /* Add margin to the right */
+  display: flex;
+  width: 25%;
+  height: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Add box shadow */
+}
+
+.search-input {
+  background-color: #2a5298; /* Light grey background */
+  color: black; /* Black text */
+  width: 100%; 
+  padding: 10px; /* Add padding for better appearance */
+  font-size: 16px; /* Increase font size */
+  border: none; /* Remove border */
+  border-radius: 0 5px 5px 5px; /* Add border radius */
+}
+
+.search-input::placeholder {
+  color: white; /* White placeholder text */
+}

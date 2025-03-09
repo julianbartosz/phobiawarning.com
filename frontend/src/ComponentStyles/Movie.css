@@ -1,0 +1,70 @@
+.movie-container {
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 0 0.3rem 3rem 0.3rem;
+    position: relative; /* Add this line */
+    transition: background-color 0.3s ease; /* Add this line */
+}
+
+.movie-container:hover {
+    background-color: rgba(255, 255, 255, 0.9); /* Add this line */
+}
+
+.movie-container:hover .movie-description,
+.movie-container:hover .movie-image,
+.movie-container:hover .default-style {
+    opacity: 7%; /* Add this line */
+}
+
+.movie-image {
+    width: 200px;
+    height: 300px;
+}
+
+.default-style {
+    width: 200px;
+    height: 300px;
+    background-color: darkblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+}
+
+.movie-description {
+    font-size: 12px;
+    margin-top: 10px;
+    color: white;
+}
+
+.movie-poster {
+    background: linear-gradient(to bottom, #1e3c72, #2a5298);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px; /* Adjust as needed */
+    width: 200px; /* Adjust as needed */
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.movie-statistics {
+    display: none; /* Add this line */
+    position: absolute; /* Add this line */
+    top: 50%; /* Add this line */
+    left: 50%; /* Add this line */
+    transform: translate(-50%, -50%); /* Add this line */
+    color: black; /* Add this line */
+    font-size: 1.5em; /* Add this line */
+    font-weight: bold; /* Add this line */
+}
+
+.movie-container:hover .movie-statistics {
+    display: block; /* Add this line */
+}
