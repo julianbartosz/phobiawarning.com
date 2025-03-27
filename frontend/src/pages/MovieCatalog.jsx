@@ -22,7 +22,7 @@ const MovieCatalog = () => {
 
   return (
     <div>
-      <div className="header">Placeholder Header</div> {/* Imaginary header */}
+      {/* <div className="placholder-header">Placeholder Header</div>  */}
       <CatalogFilters />
       <div className="movies-container"> {/* Add class for spacing */}
         {movies.map((movie) => (

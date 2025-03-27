@@ -5,15 +5,16 @@
 
 .card {
   padding: 2em;
+  background-color: var(--card-bg);
+  color: var(--text);
 }
 
 .read-the-docs {
-  color: #888;
+  color: var(--text-muted);
 }
 
 .app {
-  background-color: white;
+  background-color: var(--bg);
   width: 100vw;
   height: 100vh;
-  background: linear-gradient(to bottom, #CB0504, #4B0000); /* Dark blood red gradient */
 }
